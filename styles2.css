@@ -1,0 +1,114 @@
+/* General styles */
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* Header styles */
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 1cm 0;
+    text-align: center;
+}
+header h1{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+na ul li {
+    margin: 0 1cm;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5cm 1cm;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: #575757;
+}
+/* HeroSection Styles*/
+#hero {
+    background:url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 5cm 0;
+    text-align: center;
+}
+#hero h2 {
+    font-size: 1.2cm;
+    margin-bottom: 1cm;
+}
+#hero p{
+    font-size: 2.5cm;
+    margin-bottom: 0.5cm;
+}
+.btn {
+    background-color: #0044cc;
+    color: white;
+    padding: 0.5cm 1cm;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #003399;
+}
+/* Featured services style */
+#featured-services {
+    background-color: #f4f4f4;
+    padding: 2cm  0;
+}
+.services {
+    display: flex;
+    justify-content:space-around;
+}
+.services {
+    background-color: white;
+    padding: 1cm;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 30%;
+    text-align: center;
+}
+.services h3 {
+    margin-bottom: 0.5cm;
+}
+/* Testimonials styles */
+#testimonials {
+    background-color: #e2e2e2;
+    padding: 2cm 0;
+}
+.testimonial {
+    margin-bottom: 1cm;
+    font-style: italic;
+    text-align: center;
+}
+/* Call to Action styles */
+#cta {
+    background-color: #0044cc;
+    color: white;
+    padding: 2cm 0;
+    text-align: center;
+}
+#cta h2  {
+    margin-bottom: 0.5cm;
+}
+#cta p {
+    margin-bottom: 1cm;
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1cm 0;
+}

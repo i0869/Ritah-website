@@ -1,0 +1,79 @@
+/* General Styles */
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/* Header Styles */
+header {
+    background-color:#0044cc;
+    color: white;
+    padding: 1cm 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav ul li {
+    background-color: #575757;
+}
+/* Main Section Styles */
+main {
+    padding: 2cm 0;
+    background-color: #f4f4f4;
+}
+section {
+    margin-bottom: 2cm;
+}
+section h2 {
+    border-bottom: 2px solid #0044cc;
+    padding-bottom: 0.5cm;
+}
+section p, section ul {
+    margin-top: 1cm;
+}
+ul {
+    list-style-type: disc;
+    margin-left: 1cm;
+}
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.team-member {
+    text-align: center;
+    margin-bottom: 2cm;
+    width: 30%;
+}
+.tam-member img {
+    margin-top: 100%;
+    border-radius: 50%;
+}
+.team-member h3 {
+    margin-top: 0.5cm;
+}
+.team-member p {
+    margin-top: 0.2cm;
+    color: #777;
+}
+/* Footer Sytles  */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1cm 0;
+}

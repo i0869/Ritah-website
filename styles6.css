@@ -1,0 +1,66 @@
+/* General styles */
+body{
+    font-family: Arial,san-serif;
+    background-color: #0044CC;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+/* header */
+header{
+    
+    width: 70%;
+    margin: 0 auto;
+}
+header h1{
+    margin: 0;
+}
+nav ul {
+    display:grid;
+    margin: 15px;
+    list-style-type: none;
+    padding: 20px;
+    margin: flex;
+    justify-content: center;
+    background-color: grey;
+    
+}
+nav ul li {
+    color:#333;
+    text-decoration:none;
+}
+/* main section styles */
+main {
+    padding: 2cm 0;
+    background-color: #f4f4f4;
+}
+section {
+    margin-bottom: 2cm;
+}
+section h2 {
+    border-bottom: 2px solid #0044cc;
+    padding-bottom: 0.5cm;
+}
+section p, section ul {
+    margin-top: 1cm;
+}
+ul {
+    list-style-type: disc;
+    margin-left: 1cm;
+}
+.contact-us{
+    padding:20px;
+    margin:20px;
+    
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(red, green, blue, alpha);
+}
+/* Footer Sytles  */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1cm 0;
+}

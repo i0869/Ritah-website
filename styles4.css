@@ -1,0 +1,82 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#0044cc;
+}
+header{
+    background-color: ;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.services{
+    padding: 20px;
+    margin: 0px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+    main {
+        padding: 2cm 0;
+        background-color: #f4f4f4;
+    }
+    section {
+        margin-bottom: 2cm;
+    }
+    section h2 {
+        border-bottom: 2px solid #0044cc;
+        padding-bottom: 0.5cm;
+    }
+    section p, section ul {
+        margin-top: 1cm;
+    }
+    ul {
+        list-style-type: disc;
+        margin-left: 1cm;
+    }
+    .team-members {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .team-member {
+        text-align: center;
+        margin-bottom: 2cm;
+        width: 30%;
+    }
+    .team-member img {
+        margin-top :100%;
+        border-radius: 50%;
+    }
+    .team-member h3 {
+        margin-top: 0.5cm;
+    }
+    .team-member p {
+        margin-top: 0.2cm;
+        color: #777;
+    }
+    /* Footer Sytles  */
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1cm 0;
+    }
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
